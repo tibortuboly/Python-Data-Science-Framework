@@ -1,0 +1,6 @@
+# check Python version
+!python -V
+
+import pandas as pd # import library to read data into dataframe
+pd.set_option('display.max_columns', None)
+import numpy as np # import numpy library
